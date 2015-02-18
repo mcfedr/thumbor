@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+<img>
+<script src="../bower_components/jssha/src/sha1.js"></script>
+<script src="../index.js"></script>
+<script>
+    var thumbor  = new Thumbor('MY_KEY', 'http://myserver.thumbor.com');
+
+    // Generate your url :
+
+    var thumborUrl = thumbor.setImagePath('00223lsvrnzeaf42.png').resize(50, 50).buildUrl();
+    document.querySelector('img').src = thumborUrl;
+</script>
+</body>
+</html>

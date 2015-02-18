@@ -1,0 +1,27 @@
+{
+  "name": "thumbor",
+  "main": "index.js",
+  "version": "0.1.2",
+  "homepage": "https://github.com/mcfedr/thumbor",
+  "authors": [
+    "Fred Cox <fred@ekreative.com>"
+  ],
+  "description": "Thumbor url generator",
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "thumbor"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "examples",
+    "package.json"
+  ],
+  "dependencies": {
+    "jssha": "~1.5.0"
+  }
+}

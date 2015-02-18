@@ -27,3 +27,17 @@ var thumbor  = new Thumbor('MY_KEY', 'http://myserver.thumbor.com');
 
 var thumborUrl = thumbor.setImagePath('00223lsvrnzeaf42.png').resize(50,50).buildUrl();
 ```
+
+
+# Bower Usage
+
+This module can be installed
+
+    bower install thumbor
+    
+You must include the dependency
+
+    <script src="bower_components/jssha/src/sha1.js"></script>
+    <script src="bower_components/thumbor/index.js"></script>
+    
+    
