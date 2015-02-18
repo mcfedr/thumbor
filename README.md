@@ -35,9 +35,10 @@ This module can be installed
 
     bower install thumbor
     
-You must include the dependency
+If you use a secret key, you must include the dependency.
 
     <script src="bower_components/jssha/src/sha1.js"></script>
     <script src="bower_components/thumbor/index.js"></script>
     
-    
+You can set the key to be null and it will generate unsafe urls. This might be preferable as putting your key into most
+javascript isn't very secure!
